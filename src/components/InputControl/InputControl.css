@@ -1,0 +1,27 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container1 label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #313131;
+}
+
+.container1 input {
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.container1 input:hover {
+    border-color: rgb(31, 12, 137);
+}
+
+.container1 input:focus {
+    border-color: #1b0b82;
+}
